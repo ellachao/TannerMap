@@ -11,11 +11,11 @@ CustomMarker = L.Marker.extend({
    }
 });
 
-L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoiZWxsYWNoYW8iLCJhIjoiY2l0ZWZmNTFpMDVhZzJubzljOG0ycGpidCJ9.sa_wMdArcKfBrdv3wGLM2g', {
+L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=access_token_here', {
     attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
     maxZoom: 18,
-    id: 'ellachao.1f9gjea9',
-    accessToken: 'pk.eyJ1IjoiZWxsYWNoYW8iLCJhIjoiY2l0ZWZmNTFpMDVhZzJubzljOG0ycGpidCJ9.sa_wMdArcKfBrdv3wGLM2g'
+    id: 'id_here',
+    accessToken: 'access_token_here'
 }).addTo(map);
 
 var clusters=L.markerClusterGroup();
